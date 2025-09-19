@@ -1,0 +1,20 @@
+# Environments
+venv/
+football_env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-specific
+.DS_Store
+
+# Data and models
+*.pt
+*.avi
+*.mp4
+
+# Output directories
+/runs/
+/runs 2/

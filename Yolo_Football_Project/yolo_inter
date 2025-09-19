@@ -1,0 +1,9 @@
+from ultralytics import YOLO 
+
+model = YOLO('/Users/akremhd/Desktop/My_projects/Football_Project/Football_training_yolo/models/Football Training YOLO v5.pt')
+
+results = model.predict('input_videos/Video from Google Drive.mp4',save=True)
+print(results[0])
+print('=====================================')
+for box in results[0].boxes:
+    print(box)
